@@ -9,8 +9,8 @@ changebutton.addEventListener("click", () => {
 	items.forEach((cell)=>{
 		cell.style.backgroundColor='transparent'
 	})
-	let ipid = document.getElementById('block-id').value
-	let ipco = document.getElementById('colour-id').value
+	let ipid = document.getElementById('block_id').value
+	let ipco = document.getElementById('colour_id').value
 
 	let changeCell = document.getElementById(`${ipid}`)
 	changeCell.style.backgroundColor=ipco
