@@ -3,7 +3,7 @@
 let items = document.querySelectorAll('.grid-item')
 
 let changebutton = document.getElementById('change_button')
-let reset = document.getElementById('Reset')
+let reset = document.getElementById('reset_button')
 
 changebutton.addEventListener("click", () => {
 	items.forEach((cell)=>{
